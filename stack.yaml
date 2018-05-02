@@ -1,0 +1,12 @@
+flags: {}
+packages:
+- .
+extra-deps:
+- mtl-2.2.2
+- parsec-3.1.13.0
+- text-1.2.3.0
+- haskeline-0.7.3.0
+resolver: ghc-8.0.2
+
+nix:
+  enable: true
